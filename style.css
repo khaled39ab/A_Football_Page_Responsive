@@ -1,0 +1,55 @@
+/*======================
+++++++++  Font  ++++++++
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*=============================================
+++++++++   Common and Utilities Style  ++++++++
+===============================================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color: #2D25A0;
+}
+
+/*=============================================
+++++++++++++++++   Navbar Style  ++++++++++++++
+===============================================*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px 30px 150px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0;
+}
+.menu a:hover{
+    background-color: tomato;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.login{
+    background-color: #E02C6D;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 24px;
+}
+.login a{
+    color: white;
+}
